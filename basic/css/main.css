@@ -1,0 +1,64 @@
+.container {display:flex;width:1200px;margin:0 auto;padding:0 15px;}
+figure {margin:0;padding:0;}
+address {font-style:normal;}
+
+.wrap {min-width:1900px;}
+
+.hd_top {font-size:13px;font-weight:300;line-height:2.3;border-bottom:1px solid #ced4da;}
+.hd_top .right {margin-left:auto;}
+
+.hd {line-height:100px;border-bottom:1px solid #ced4da;}
+.hd h1 img {max-width:300px;}
+.hd .gnb {margin-left:auto;}
+.hd .gnb>ul {display:flex;gap:40px;font-size:17px;}
+
+.main {position:relative;}
+.main .m_slider {height:500px;}
+.main .m_slider figure {height:500px;}
+.main .m_slider .item01 {background:url(../img/main_slider01.jpg) no-repeat center center/cover;}
+.main .m_slider .item02 {background:url(../img/main_slider02.jpg) no-repeat center center/cover;}
+.main .m_slider .item03 {background:url(../img/14744.jpg) no-repeat center center/cover;}
+
+.main .slogan {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:1200px;color:#f8f9fa;text-align:center;}
+
+.main .slogan h2 {font-size:60px;margin-bottom:30px;text-shadow:0 0 2px rgba(0,0,0,0.8);}
+.main .slogan p {font-size:17px;text-shadow:0 0 2px rgba(0,0,0,0.8);}
+
+.sub_title {line-height:200px;height:200px;background:url(../img/14744.jpg) center center/cover;}
+.sub_title h2 {text-align:center;font-size:40px;font-weight:900;color:#fff;}
+
+.sub_page {min-height:500px;}
+
+.sub_page article {width:calc(100% - 300px);padding:50px 50px 50px 0;border-right:1px solid #eee;}
+.sub_page aside {width:300px;padding:50px 0 50px 50px}
+
+.sub_page article h2 {font-size:21px;font-weight:500;line-height:40px;border-bottom:1px solid #eee;margin-bottom:40px;color:#333;}
+.sub_page article h2 small {font-size:15px;font-weight:300;color:#666;}
+
+.sub_page aside li {line-height:40px;margin-bottom:5px;border:1px solid #ddd;padding:0 15px;}
+.sub_page aside li.on {background:#369;color:#fff;}
+.sub_page aside li a {display:block;}
+
+.customer {padding:80px 0;}
+.customer .container {width:1230px;padding:0 0;}
+.customer .container>div {flex:1;padding:0 30px;}
+.customer .container>div~div {border-left:1px solid #ced4da}
+.customer h3 {font-size:20px;font-weight:300;border-bottom:1px solid #ced4da;margin-bottom:20px;line-height:40px;}
+.customer h3 i {display:inline-block;margin-top:5px;}
+.customer h3 i {float:right;}
+.customer h3 span {float:right;color:#ced4da;font-size:10px;}
+
+.customer .rt {position:relative;text-align:right;}
+.customer .rt strong {display:block;padding-top:80px;font-size:35px;font-weight:700;margin-bottom:20px;}
+.customer .rt a {display:block;}
+.customer .rt i {position:absolute;top:20px;right:30px;font-size:30px;padding:10px;background:#ced4da;border-radius:50%;line-height:1;width:50px;height:50px;color:#fff;}
+.customer .lf li {line-height:40px;font-size:15px;border-bottom:1px solid #eee}
+.customer .lf li span {float:right;}
+
+
+
+
+.footer {font-size:13px;padding:30px 0;border-top:1px solid #ced4da;text-align:center;background:#f8f9fa;}
+
+.footer ul {width:600px;margin:0 auto;}
+.footer ul li {display:inline-block;}
